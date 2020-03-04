@@ -9,9 +9,11 @@ class Todos extends Component {
     <Todoitem
       key={todo.id}
       todo={todo}
-      markComplete={this.props.markComplete}/>
+      markComplete={this.props.markComplete}
+      delTodo={this.props.delTodo}/>
     ))
   }
+
 }
 
 // PropTypes
